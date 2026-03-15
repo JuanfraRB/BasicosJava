@@ -1,11 +1,14 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
 package hellojava;
 
 /**
  *
  * @author Juan Francisco Rodríguez Berenguel
  */
-public class Hellojava {
+public class HelloJava {
 
     /**
      * @param args the command line arguments
