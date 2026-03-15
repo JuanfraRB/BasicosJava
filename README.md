@@ -13,6 +13,7 @@ Cada carpeta contiene un ejemplo independiente centrado en un concepto concreto 
 | Nº | Proyecto            | Concepto                        |
 | -- | ------------------- | ------------------------------- |
 | 01 | Hello Java          | Primer programa en Java         |
+| 02 | Enum                | Tipo dato enum                  |
 
 
 *(Se irán añadiendo nuevos ejemplos progresivamente.)*
@@ -26,8 +27,8 @@ asicosJava/
 │
 ├─ hellojava/
 │   ├─ src/
-│   │   └─ HelloJava.java
-│   └─ README.md
+│       ├─ HelloJava.java
+│       └─ README.md
 
 ```
 
