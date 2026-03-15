@@ -23,12 +23,17 @@ Cada carpeta contiene un ejemplo independiente centrado en un concepto concreto 
 ## 📂 Estructura del repositorio
 
 ```text
-asicosJava/
+basicosJava/
 │
 ├─ hellojava/
 │   ├─ src/
 │       ├─ HelloJava.java
 │       └─ README.md
+├─ PrimerosPasos/
+│       ├─ src/Enum
+│           ├─enumeracion.java
+│           └─ README.md
+
 
 ```
 
