@@ -14,7 +14,9 @@ Cada carpeta contiene un ejemplo independiente centrado en un concepto concreto 
 | -- | ------------------- | ------------------------------- |
 | 01 | Hello Java          | Primer programa en Java         |
 | 02 | Enum                | Tipo dato enum                  |
-
+| 03 | Enum2               | Tipo dato enum, en otro archivo |
+| 04 | CalculosAritmeticos | Funciones matemáticas           |
+| 05 | Operaciones         | Tipo dato booleano              |
 
 *(Se irán añadiendo nuevos ejemplos progresivamente.)*
 
@@ -31,9 +33,21 @@ basicosJava/
 │       └─ README.md
 ├─ PrimerosPasos/
 │       ├─ src/Enum
-│           ├─enumeracion.java
-│           └─ README.md
-
+│       |   ├─ enumeracion.java
+│       |   └─ README.md
+│       ├─src/Enum2
+│       |   ├─ enumeracion.java
+|       |   ├ ─enum.java
+│       |   └─ README.md
+│       ├─src/CalculosAritmeticos
+│       |   ├─ calculos.java
+│       |   └─ README.md
+│       ├─src/Operaciones
+│       |   ├─ Operaciones.java
+│       |   └─ README.md
+│       ├─src/Analisis
+│       |   ├─ analisis.java
+│       |   └─ README.md
 
 ```
 
@@ -92,5 +106,6 @@ Este repositorio irá creciendo con nuevos ejemplos y pequeños proyectos que cu
 ---
 
 ## 👨‍💻 Autor
+**Juan Francisco Rodríguez Berenguel** 
 
 Proyecto desarrollado como práctica y aprendizaje continuo en Java.
