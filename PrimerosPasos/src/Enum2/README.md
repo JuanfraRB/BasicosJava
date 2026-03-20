@@ -8,11 +8,11 @@ Las enumeraciones permiten definir un conjunto fijo de constantes, facilitando l
 
 # 📌 Descripción
 
-En este ejemplo se define una enumeración llamada `ProvinciaAndalucia` que contiene las ocho provincias de Andalucía.
+En este ejemplo se define una clase enum llamada `Enum` que contiene las ocho provincias de Andalucía en una estructura propia.
 
-Posteriormente, el programa asigna cada valor del `enum` a una variable y lo muestra por consola.
+Posteriormente, el programa asigna cada valor del `enum` a una variable y lo muestra por consola, utilización de valueOf().
 
-Este ejercicio sirve para entender cómo funcionan las enumeraciones y cómo se utilizan dentro de un programa Java.
+Este ejercicio sirve para entender cómo funciona la clase enum y cómo se utilizan dentro de un programa Java.
 
 ---
 
@@ -22,6 +22,7 @@ Este ejercicio sirve para entender cómo funcionan las enumeraciones y cómo se 
 Enum/
 │
 ├── enumeracion.java
+├── Enum.java
 └── README.md
 ```
 
@@ -45,15 +46,10 @@ Ejemplos típicos:
 # 💻 Declaración del enum
 
 ```java
-public enum ProvinciaAndalucia {
-    ALMERIA,
-    CADIZ,
-    CORDOBA,
-    GRANADA,
-    HUELVA,
-    JAEN,
-    MALAGA,
-    SEVILLA
+public enum Enum {
+
+    ALMERIA, CADIZ, CORDOBA, GRANADA, HUELVA, JAEN, MALAGA, SEVILLA
+
 }
 ```
 
@@ -96,10 +92,10 @@ Provincia 8: SEVILLA
 
 Las enumeraciones en Java incluyen métodos muy útiles:
 
-### Obtener todos los valores
+### Creación de variable
 
 ```java
-ProvinciaAndalucia[] provincias = ProvinciaAndalucia.values();
+Enum provincia;
 ```
 
 Permite recorrer todos los valores de la enumeración.
@@ -109,7 +105,8 @@ Permite recorrer todos los valores de la enumeración.
 ### Convertir texto a enum
 
 ```java
-ProvinciaAndalucia provincia = ProvinciaAndalucia.valueOf("ALMERIA");
+ provincia = Enum.valueOf("SEVILLA");
+        System.out.println("Provincia 8: " + provincia);
 ```
 
 Convierte un `String` en un valor del `enum`.
@@ -125,7 +122,7 @@ Convierte un `String` en un valor del `enum`.
 
 ---
 
-#💻 Ejemplo de Salida
+# 💻 Ejemplo de Salida
 
 ```java
 Provincias de Andalucía
@@ -141,3 +138,10 @@ Provincia 8: SEVILLA
 # 📚 Nota
 
 El uso de `enum` mejora la **legibilidad y seguridad del código**, evitando el uso de valores arbitrarios o cadenas de texto para representar estados o categorías.
+
+---
+
+# 🛠️ Requisitos
+Java JDK: 8 o superior.
+
+IDE: Cualquier entorno compatible con Java (NetBeans, IntelliJ, Eclipse, VS Code).
