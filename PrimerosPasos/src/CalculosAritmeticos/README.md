@@ -1,3 +1,4 @@
+
 # Cálculos Aritméticos en Java ☕
 
 Ejemplo práctico del uso de **cálculos matemáticos** específicos a partir de dos números reales introducidos por el usuario. Es un ejercicio ideal para practicar la jerarquía de operaciones y la interacción con el usuario a través de la consola.
@@ -72,16 +73,10 @@ Mitad del cuadrado de la suma de ambos números: 4.5
 ```
 
 ---
-
 # 🎯 Objetivo del ejercicio
 
-* Comprender qué es un **enum en Java**
-* Definir un conjunto de constantes
-* Utilizar enumeraciones dentro de un programa
-* Mostrar valores por consola
-
+* Operaciones matemáticas en Java
 ---
-
 # 📚 Nota
 
 **1. Convención de Nombres (CamelCase)**
