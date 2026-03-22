@@ -17,6 +17,7 @@ Cada carpeta contiene un ejemplo independiente centrado en un concepto concreto 
 | 03 | Enum2               | Tipo dato enum, en otro archivo |
 | 04 | CalculosAritmeticos | Funciones matemáticas           |
 | 05 | Operaciones         | Tipo dato booleano              |
+| 06 | Textos              | Tipo dato String, charAt        |
 
 *(Se irán añadiendo nuevos ejemplos progresivamente.)*
 
@@ -47,6 +48,9 @@ basicosJava/
 │       |   └─ README.md
 │       ├─src/Analisis
 │       |   ├─ analisis.java
+│       |   └─ README.md
+│       ├─src/Textos
+│       |   ├─ analisisTxt.java
 │       |   └─ README.md
 
 ```
