@@ -56,7 +56,8 @@ Introduzca un año (entre 1801-2100): 1802
 RESULTADO
 ---------
 El año introducido es anterior al actual. Han pasado 224 años.
-El año pertenece al siglo XIX.```
+El año pertenece al siglo XIX.
+```
 
 ---
 
@@ -100,7 +101,7 @@ Es la estructura que has usado para calcular los siglos o la diferencia de años
 
 **Diferencia clave con el switch**: * El if-else if es mucho más potente porque permite evaluar rangos (ej: anyo >= 1801 && anyo < 1901) y usar operadores lógicos (&&, ||).
 
-![Diagrama de flujo if-else-if](ifelse.png)
+![Diagrama de flujo if-else-if](img/ifelse.png)
 
 El switch normalmente solo sirve para comparar una variable contra valores fijos y exactos (como números enteros, caracteres o Enums).
 
