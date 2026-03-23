@@ -1,4 +1,4 @@
-# 📅 Análisis Cronológico de un Añoo ☕
+# 📅 Análisis Cronológico de un Año ☕
 
 Este programa realiza un estudio detallado de un año introducido por el usuario, determinando su validez, el siglo al que pertenece y su distancia temporal respecto al año actual. Es un excelente ejemplo de control de flujo y validación de datos en Java.
 
@@ -100,9 +100,9 @@ Es la estructura que has usado para calcular los siglos o la diferencia de años
 
 **Diferencia clave con el switch**: * El if-else if es mucho más potente porque permite evaluar rangos (ej: anyo >= 1801 && anyo < 1901) y usar operadores lógicos (&&, ||).
 
-<p align="center">
-  <img src="ifelse.png" alt="Resumen IF, IF-ELSE" width="120">
-</p>
+
+![Diagrama de flujo if-else-if](ifelse.png)
+
 
 El switch normalmente solo sirve para comparar una variable contra valores fijos y exactos (como números enteros, caracteres o Enums).
 
