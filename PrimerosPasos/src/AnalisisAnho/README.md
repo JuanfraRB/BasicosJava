@@ -99,7 +99,10 @@ if (anyoValido) {
 Es la estructura que has usado para calcular los siglos o la diferencia de años. Se evalúan las condiciones en orden, de arriba hacia abajo. En cuanto una es verdadera, se ejecuta su bloque y se saltan todas las demás.
 
 **Diferencia clave con el switch**: * El if-else if es mucho más potente porque permite evaluar rangos (ej: anyo >= 1801 && anyo < 1901) y usar operadores lógicos (&&, ||).
-<img src="ifelse.png" alt="Resumen" width="500"/>
+<p align="center">
+  <img src="hifelse.png" alt="Resumen IF, IF-ELSE" width="120">
+</p>
+
 El switch normalmente solo sirve para comparar una variable contra valores fijos y exactos (como números enteros, caracteres o Enums).
 
 **Control de Flujo vs. Eficiencia**:
