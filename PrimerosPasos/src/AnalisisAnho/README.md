@@ -56,7 +56,8 @@ Introduzca un año (entre 1801-2100): 1802
 RESULTADO
 ---------
 El año introducido es anterior al actual. Han pasado 224 años.
-El año pertenece al siglo XIX.```
+El año pertenece al siglo XIX.
+```
 
 ---
 
