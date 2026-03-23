@@ -101,7 +101,7 @@ Es la estructura que has usado para calcular los siglos o la diferencia de años
 **Diferencia clave con el switch**: * El if-else if es mucho más potente porque permite evaluar rangos (ej: anyo >= 1801 && anyo < 1901) y usar operadores lógicos (&&, ||).
 
 
-![Diagrama de flujo if-else-if](ifelse.png)
+![Diagrama de flujo if-else-if]([ifelse.png](https://github.com/JuanfraRB/BasicosJava/blob/master/PrimerosPasos/src/AnalisisAnho/ifelse.png))
 
 
 El switch normalmente solo sirve para comparar una variable contra valores fijos y exactos (como números enteros, caracteres o Enums).
