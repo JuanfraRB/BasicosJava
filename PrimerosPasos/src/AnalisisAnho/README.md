@@ -99,13 +99,16 @@ if (anyoValido) {
 3. El if-else if-else (Múltiples alternativas)
 Es la estructura que has usado para calcular los siglos o la diferencia de años. Se evalúan las condiciones en orden, de arriba hacia abajo. En cuanto una es verdadera, se ejecuta su bloque y se saltan todas las demás.
 
-**Diferencia clave con el switch**: * El if-else if es mucho más potente porque permite evaluar rangos (ej: anyo >= 1801 && anyo < 1901) y usar operadores lógicos (&&, ||).
+**Diferencia clave con el switch**: 
+ * El if-else if es mucho más potente porque permite evaluar rangos (ej: anyo >= 1801 && anyo < 1901) y usar operadores lógicos (&&, ||).
 
 ![Diagrama de flujo if-else-if](img/ifelse.png)
 
+---
 El switch normalmente solo sirve para comparar una variable contra valores fijos y exactos (como números enteros, caracteres o Enums).
 
 **Control de Flujo vs. Eficiencia**:
+
 Aunque el switch es más legible para menús o opciones fijas, la estructura if-else if es la herramienta estándar en Java para la validación de rangos numéricos y lógica compleja. En este proyecto se ha priorizado el uso de condicionales encadenados para gestionar con precisión los intervalos de años y las comparaciones de fechas.
 ---
 
