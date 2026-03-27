@@ -18,6 +18,7 @@ Cada carpeta contiene un ejemplo independiente centrado en un concepto concreto 
 | 04 | CalculosAritmeticos | Funciones matemáticas           |
 | 05 | Operaciones         | Tipo dato booleano              |
 | 06 | Textos              | Tipo dato String, charAt        |
+| 07 | TuteConSwitch       | Tipo dato byte, uso switch      |
 
 *(Se irán añadiendo nuevos ejemplos progresivamente.)*
 
@@ -51,6 +52,9 @@ basicosJava/
 │       |   └─ README.md
 │       ├─src/Textos
 │       |   ├─ analisisTxt.java
+│       |   └─ README.md
+│       ├─src/TuteConSwitch
+│       |   ├─ tute.java
 │       |   └─ README.md
 
 ```
